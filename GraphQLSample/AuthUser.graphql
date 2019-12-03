@@ -1,0 +1,6 @@
+query AuthUser {
+  viewer {
+    name
+    avatarUrl
+  }
+}
