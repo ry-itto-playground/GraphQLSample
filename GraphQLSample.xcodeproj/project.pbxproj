@@ -18,6 +18,8 @@
 		BFD5FA322396E1A900767CE4 /* AuthUser.graphql in Resources */ = {isa = PBXBuildFile; fileRef = BFD5FA312396E1A900767CE4 /* AuthUser.graphql */; };
 		BFD5FA342396E20A00767CE4 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD5FA332396E20A00767CE4 /* API.swift */; };
 		BFD5FA362396E83E00767CE4 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD5FA352396E83E00767CE4 /* ContentViewModel.swift */; };
+		BFD5FA382397753B00767CE4 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD5FA372397753B00767CE4 /* Network.swift */; };
+		BFD5FA3A2397785200767CE4 /* GitHubToken.plist in Resources */ = {isa = PBXBuildFile; fileRef = BFD5FA392397785200767CE4 /* GitHubToken.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +35,8 @@
 		BFD5FA312396E1A900767CE4 /* AuthUser.graphql */ = {isa = PBXFileReference; lastKnownFileType = text; path = AuthUser.graphql; sourceTree = "<group>"; };
 		BFD5FA332396E20A00767CE4 /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 		BFD5FA352396E83E00767CE4 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
+		BFD5FA372397753B00767CE4 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		BFD5FA392397785200767CE4 /* GitHubToken.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = GitHubToken.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +82,8 @@
 				BFD5FA222396D4D200767CE4 /* Info.plist */,
 				BFD5FA1C2396D4D200767CE4 /* Preview Content */,
 				BFD5FA312396E1A900767CE4 /* AuthUser.graphql */,
+				BFD5FA372397753B00767CE4 /* Network.swift */,
+				BFD5FA392397785200767CE4 /* GitHubToken.plist */,
 			);
 			path = GraphQLSample;
 			sourceTree = "<group>";
@@ -159,6 +165,7 @@
 				BFD5FA212396D4D200767CE4 /* LaunchScreen.storyboard in Resources */,
 				BFD5FA1E2396D4D200767CE4 /* Preview Assets.xcassets in Resources */,
 				BFD5FA322396E1A900767CE4 /* AuthUser.graphql in Resources */,
+				BFD5FA3A2397785200767CE4 /* GitHubToken.plist in Resources */,
 				BFD5FA1B2396D4D200767CE4 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -194,6 +201,7 @@
 			files = (
 				BFD5FA152396D4D000767CE4 /* AppDelegate.swift in Sources */,
 				BFD5FA172396D4D000767CE4 /* SceneDelegate.swift in Sources */,
+				BFD5FA382397753B00767CE4 /* Network.swift in Sources */,
 				BFD5FA342396E20A00767CE4 /* API.swift in Sources */,
 				BFD5FA192396D4D000767CE4 /* ContentView.swift in Sources */,
 				BFD5FA362396E83E00767CE4 /* ContentViewModel.swift in Sources */,
