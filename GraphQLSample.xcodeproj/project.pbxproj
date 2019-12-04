@@ -20,6 +20,7 @@
 		BFD5FA362396E83E00767CE4 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD5FA352396E83E00767CE4 /* ContentViewModel.swift */; };
 		BFD5FA382397753B00767CE4 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD5FA372397753B00767CE4 /* Network.swift */; };
 		BFD5FA3A2397785200767CE4 /* GitHubToken.plist in Resources */ = {isa = PBXBuildFile; fileRef = BFD5FA392397785200767CE4 /* GitHubToken.plist */; };
+		BFD5FA3C23977DC600767CE4 /* AuthUserClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD5FA3B23977DC600767CE4 /* AuthUserClient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		BFD5FA352396E83E00767CE4 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
 		BFD5FA372397753B00767CE4 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
 		BFD5FA392397785200767CE4 /* GitHubToken.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = GitHubToken.plist; sourceTree = "<group>"; };
+		BFD5FA3B23977DC600767CE4 /* AuthUserClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthUserClient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				BFD5FA1C2396D4D200767CE4 /* Preview Content */,
 				BFD5FA312396E1A900767CE4 /* AuthUser.graphql */,
 				BFD5FA372397753B00767CE4 /* Network.swift */,
+				BFD5FA3B23977DC600767CE4 /* AuthUserClient.swift */,
 				BFD5FA392397785200767CE4 /* GitHubToken.plist */,
 			);
 			path = GraphQLSample;
@@ -199,6 +202,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFD5FA3C23977DC600767CE4 /* AuthUserClient.swift in Sources */,
 				BFD5FA152396D4D000767CE4 /* AppDelegate.swift in Sources */,
 				BFD5FA172396D4D000767CE4 /* SceneDelegate.swift in Sources */,
 				BFD5FA382397753B00767CE4 /* Network.swift in Sources */,
