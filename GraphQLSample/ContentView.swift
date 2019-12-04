@@ -9,8 +9,17 @@
 import SwiftUI
 
 struct ContentView: View {
+    @ObservedObject var viewModel = ContentViewModel()
+
     var body: some View {
-        Text("Hello, World!")
+        VStack {
+            ImageURL(url: URL(string: viewModel.userData?.viewer.avatarUrl ?? ""))
+                .clipShape(Circle())
+            Text(viewModel.userData?.viewer.name ?? "")
+                .onAppear {
+                    self.viewModel.onAppearSubject.send(())
+                }
+        }
     }
 }
 
